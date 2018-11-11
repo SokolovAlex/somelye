@@ -1,0 +1,29 @@
+{
+  "name": "somelye",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SokolovAlex/somelye.git",
+  "author": "sokolov alex <alex.sklv85@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-jss": "^8.6.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {}
+}

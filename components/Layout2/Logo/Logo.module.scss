@@ -1,10 +1,11 @@
+$primaryColor: #498ea5;
+$secondaryColor: black;
+
 .logo {
-  font-family: 'Playfair Display', serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 46px;
-  color: #3A4945;
-  padding: 0 0 0.125em;
+  color: $primaryColor;
   outline: none;
   text-decoration: none;
   position: relative;
@@ -15,9 +16,9 @@
   &::before, &::after {
     content: '';
     width: 100%;
-    height: 3px;
+    height: 2px;
     z-index: -1;
-    background: #3A4945;
+    background: $secondaryColor;
     position: absolute;
     transform: scale3d(0,1,1);
     transition: transform 0.5s;
@@ -36,18 +37,18 @@
   }
 
   span {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Fredericka the Great', cursive;
     font-weight: 400;
     text-transform: uppercase;
-    color: #3A4945;
-    padding: 0 0 0.125em;
+    color: $primaryColor;
+    padding: 0.125em 0;
     position: relative;
     transition: color 0.5s;
   }
 
   span::before, span::after{
     position: absolute;
-    color: red;
+    color: $secondaryColor;
     opacity: 0;
     transition: transform 0.5s, opacity 0.5s;
   }
@@ -66,7 +67,7 @@
 }
 
 .logo:hover {
-  color: #1e1a1b;
+  color: $secondaryColor;
   outline: 0;
 
   &::before, &::after {

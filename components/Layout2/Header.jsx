@@ -1,38 +1,31 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import { Logo } from './Logo/Logo';
+import { Menu } from './Menu/Menu';
+import styles from './Header.module.scss';
 
-import MenuDrop from '../MenuDrop/MenuDrop';
-
-const optionsMenuCustomer = [
-  {
-    text: 'My books',
-    href: '/customer/my-books',
-    as: '/my-books',
-  },
-  {
-    text: 'Log out',
-    href: '/logout',
-    noPrefetch: true,
-  },
-];
-
-const optionsMenuAdmin = [
-  {
-    text: 'Admin',
-    href: '/admin',
-  },
-  {
-    text: 'Log out',
-    href: '/logout',
-    noPrefetch: true,
+const menuItems = [{
+    text: 'Афоризмы',
+    href: '/dictums',
+  }, {
+    text: 'Поэзия',
+    href: '/poems'
+  }, {
+    text: 'Черновики',
+    href: '/drafts'
   },
 ];
 
 function Header({ user }) {
   return (
-    <div>
-      <Logo></Logo>
+    <div className={styles.header}>
+      <div className={styles.logo}>
+        <Logo/>
+      </div>
+      <div className={styles.menu}>
+        <Menu menuItems={menuItems}/>
+      </div>
     </div>
   );
 }

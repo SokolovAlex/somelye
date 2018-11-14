@@ -9,6 +9,9 @@ const theme = createMuiTheme({
     primary: { main: '#006d5c' },
     secondary: { main: '#b2b2b2' },
   },
+  typography: {
+    useNextVariants: true,
+  },
 });
 
 class Layout extends React.PureComponent {

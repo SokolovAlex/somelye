@@ -8,6 +8,7 @@ import styles from './Header.module.scss';
 const menuItems = [{
     text: 'Афоризмы',
     href: '/dictums',
+    active: true,
   }, {
     text: 'Поэзия',
     href: '/poems'

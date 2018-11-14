@@ -1,5 +1,6 @@
 $primaryColor: #498ea5;
 $secondaryColor: black;
+$duration: 1s;
 
 .logo {
   font-weight: 400;
@@ -10,7 +11,6 @@ $secondaryColor: black;
   text-decoration: none;
   position: relative;
   line-height: 1;
-  color: #9e9ba4;
   display: inline-block;
 
   &::before, &::after {
@@ -21,7 +21,7 @@ $secondaryColor: black;
     background: $secondaryColor;
     position: absolute;
     transform: scale3d(0,1,1);
-    transition: transform 0.5s;
+    transition: transform 1s;
   }
 
   &::before {
@@ -43,26 +43,26 @@ $secondaryColor: black;
     color: $primaryColor;
     padding: 0.125em 0;
     position: relative;
-    transition: color 0.5s;
+    transition: color 1s;
   }
 
   span::before, span::after{
     position: absolute;
     color: $secondaryColor;
     opacity: 0;
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 1s, opacity 1s;
   }
   
   span::before {
     content: attr(data-letters-l);
     left: 0;
-    transform: translate3d(-10px,0,0);
+    transform: translate3d(-15px,0,0);
   }
   
   span::after {
     content: attr(data-letters-r);
     right: 0;
-    transform: translate3d(10px,0,0);
+    transform: translate3d(15px,0,0);
   }
 }
 

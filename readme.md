@@ -16,3 +16,10 @@ https://tympanus.net/Development/TextStylesHoverEffects/
 
 portfolio
 http://lisher.net
+
+
+апи цитат
+https://forismatic.com/ru/#b6fdbe1173/
+
+фпи рифм
+https://rifme.net

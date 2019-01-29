@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Logo } from './Logo/Logo';
-import { Menu } from './Menu/Menu';
+import { Logo } from '../Logo/Logo';
+import { Menu } from '../Menu/Menu';
 import styles from './Header.module.scss';
 
 const menuItems = [{

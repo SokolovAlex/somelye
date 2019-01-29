@@ -3,6 +3,16 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Menu from '@material-ui/core/Menu';
 import Avatar from '@material-ui/core/Avatar';
+import styled from 'styled-components'
+
+const MenuDropStyles = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+`;
 
 class MenuDrop extends React.Component {
   static propTypes = {

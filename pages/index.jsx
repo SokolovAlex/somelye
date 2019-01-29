@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Layout } from '../components/Layout2/Layout';
+import { Layout } from '../components/Layout/Layout';
 
 const Index = ({ user }) => (
   <Layout>

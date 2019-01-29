@@ -21,5 +21,6 @@ http://lisher.net
 апи цитат
 https://forismatic.com/ru/#b6fdbe1173/
 
-фпи рифм
+апи рифм
 https://rifme.net
+

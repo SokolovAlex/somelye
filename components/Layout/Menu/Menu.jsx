@@ -28,9 +28,9 @@ class Menu extends React.Component {
             [styles.active]: item === activeMenu
           })}
           onClick={() => this.activeMenu(item)}>
-          <span className={styles.menuLink}>
+          <Link className={styles.menuLink} href={item.href}>
             {item.text}
-          </span>
+          </Link>
         </li>
       ))}
     </ul>
